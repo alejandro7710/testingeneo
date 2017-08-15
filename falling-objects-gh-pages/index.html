@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Falling Objects</title>
+	<style>
+		*{
+			 background-image: url("fondoinicio.png");
+		}
+		canvas {
+			 background-image: url("juegotigo.gif") ;
+			display: block;
+			margin: auto;
+		}
+		p{
+			font-size:20px;
+			text-align:center;
+			font-family: Helvetica;
+		}
+	</style>
+</head>
+<body>
+	<p id = "level"></p>
+	<canvas id = "canvas" width="512" height = "480"></canvas>
+	<img src="jetti.png" id="lamp" width="32" height="32">
+	<p><b>INSTRUCCIONES:</b> <- Presione las teclas derecha o isquierda para mover -></p>
+	<p>Auda al jetti a comer bolas de nieve y cervezas!</p>
+	<script src="enemy.js"></script>
+</body>
+</html>
